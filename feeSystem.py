@@ -73,10 +73,10 @@ class Fees:
             self.total = "Total-Fees"
             self.paid = "Paid-Fees"
             self.balance = "Balance-Fees"
-            print(self.name.center(10),self.roll.center(30),self.number.center(30),self.total.center(30),self.paid.center(30),self.balance.center(30))
+            print(self.name.center(10),self.roll.center(40),self.number.center(20),self.total.center(35),self.paid.center(30),self.balance.center(30))
             for self.iterative in self.result:
                 if self.iterative[1] == self.roll_no:
-                    print(self.iterative[0].center(10), str(self.iterative[1]).center(20), self.iterative[2].center(40), str(self.iterative[3]).center(25), str(self.iterative[4]).center(28),str(self.iterative[5]).center(30))
+                    print(self.iterative[0].center(10), str(self.iterative[1]).center(30), self.iterative[2].center(30), str(self.iterative[3]).center(30), str(self.iterative[4]).center(30),str(self.iterative[5]).center(30))
 
 
 
